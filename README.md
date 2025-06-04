@@ -148,83 +148,71 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <br/>
 
-<h3>Section 6: Service Level Agreements (SLA)</h3>
+<h3>Section 7: Service Level Agreements (SLA)</h3>
 
 <p>
-<img width="750" alt="PI29" src="https://github.com/user-attachments/assets/a7b03923-b42d-4cc0-bcbb-b07a5c0a23e4" />
+<img width="1440" alt="Screenshot 2025-06-04 at 12 05 10 PM" src="https://github.com/user-attachments/assets/df143a41-6954-4a0e-8761-cd3b11c04bc8" />
+
 </p>
 
 <p>- The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed.</p>
 <p>- From Agent Panel, click Manage -> SLA -> + Add New SLA Plan.</p>
 <br/>
 
-<p>
-<img width="750" alt="PI30" src="https://github.com/user-attachments/assets/88a03023-8a2e-4ccb-ac6b-b05cd4e11d9c" />
-</p>
+
 
 <p>- Name: "Sev-A" | Grace Period: 1 hour | Schedule: 24/7</p>
 <p>- Click Add Plan.</p>
 <br/>
 
 <p>
-<img width="750" alt="PI31" src="https://github.com/user-attachments/assets/4e4c2490-7452-4493-90ff-00fbeb4e47a2" />
+  <img width="1440" alt="Screenshot 2025-06-04 at 12 06 30 PM" src="https://github.com/user-attachments/assets/ab6f1699-fa70-4f9f-b9cf-cddc8964317a" />
+
 </p>
 
 <p>- Name: "Sev-B" | Grace Period: 4 hours | Schedule: 24/7</p>
 <p>- Click Add Plan.</p>
 <br/>
 
-<p>
-<img width="750" alt="PI32" src="https://github.com/user-attachments/assets/bda12229-512b-42be-9b98-dffceb4b7062" />
-</p>
+
 
 <p>- Name: "Sev-C" | Grace Period: 8 hours | Schedule: Monday - Friday, 8am - 5pm with Holidays. (Normal business hours)</p>
 <p>- Click Add Plan.</p>
 <br/>
 
-<p>
-<img width="750" alt=<img width="975" alt="PI33" src="https://github.com/user-attachments/assets/49b09cf1-5465-4fa0-9b5d-5ce2eb5996c6" />
-</p>
+
 
 <p>- The SLA Plans have been successfully added. We will use these when creating and working tickets in the next project.</p>
-<p>- You can learn more about Service Level Agreements within osTicket by clicking the link in the Post-Install Configuration Objectives above.<p/>
+
 <br/>
+<img width="1440" alt="Screenshot 2025-06-04 at 12 07 33 PM" src="https://github.com/user-attachments/assets/e4cda515-689a-4e8a-b9dc-d79a6d91bb93" />
 
-<h3>Section 7: Help Topics</h3>
 
-<p>
-<img width="750" alt="PI34" src="https://github.com/user-attachments/assets/6194a8bb-0051-46e3-b109-f50b3938e254" />
-</p>
+<h3>Section 8: Help Topics</h3>
+
+  <img width="1440" alt="Screenshot 2025-06-04 at 12 09 52 PM" src="https://github.com/user-attachments/assets/50bde65e-d761-4898-990c-55736cd63fa0" />
+
+
 
 <p>- For the final section of this project, we will add some Help Topics.</p>
 <p>- From Agent Panel, click Manage -> Help Topics -> + Add New Help Topic. <p/>
 <br/>
 
 <table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI35" src="https://github.com/user-attachments/assets/9df07a0d-2cbd-4ee1-9886-aff4c4f42304" />
-    </td>
-    <td>
-      <img width="1000" alt="PI36" src="https://github.com/user-attachments/assets/51bc7442-76e0-47ae-9f11-ad9da82ea9e8" />
-    </td>
-  </tr>
+  
 </table>
 <p>- Under Help Topic Information, Topic: Buisness Critical Outage | Parent Topic: Report a Problem. See Figure 35</p>
 <p>- Click Add Topic.  </p>
 <p>- Under Help Topic Information, Topic: Personal Computer Issues | Parent Topic: Report a Problem. See Figure 36</p>
+<img width="1440" alt="Screenshot 2025-06-04 at 12 08 36 PM" src="https://github.com/user-attachments/assets/d05cc889-1702-443c-8bdd-59bbe934c9fc" />
+
 <p>- Click Add Topic.</p>
+
+
 <br/>
 
 <table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI37" src="https://github.com/user-attachments/assets/8e46c387-782d-4c93-8634-8deb4f3e0eb9" />
-    </td>
-    <td>
-      <img width="1000" alt="PI38" src="https://github.com/user-attachments/assets/44622da8-fd2a-4d81-8677-18cfec813ff6" />
-    </td>
-  </tr>
+
 </table>
 <p>- Under Help Topic Information, Topic: Equipment Request | Parent Topic: General Inquiry. See Figure 37</p>
 <p>- Click Add Topic. </p>
@@ -232,25 +220,15 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>- Click Add Topic. </p>
 <br/>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI39" src="https://github.com/user-attachments/assets/2c81095c-4f59-4c35-8056-8e19460a5c69" />
-    </td>
-    <td>
-      <img width="1000" alt="PI40" src="https://github.com/user-attachments/assets/77f141a2-0575-4ece-9140-e571d166cd1b" />
-    </td>
-  </tr>
-</table>
+
+
 <p>- Under Help Topic Information, Topic: Other | Parent Topic: General Inquiry. See Figure 39</p>
 <p>- Click Add Topic.  </p>
-<p>- Look at all those Topics!. If you noticed, osTicket already had some deafult Help Topics preloaded for us but adding new ones gave us a chance to learn more about the process.</p>
-<p>- You can learn more about Help Topics within osTicket by clicking the link in the Post-Install Configuration Objectives above.<p/>
-<br/>
+<p>- We have now created 5 different topics. 
 
 <h2>Conclusion</h2>
 
-<p>This concludes our project. We have successfully completed the post-install configurations for osTicket. We will put our settings to the test in the next lab when we create and work tickets as a User, Agent, and Admin. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+<p>This concludes our project. We have successfully completed the post-install configurations for osTicket. We will put our settings to the test in the next lab when we create and work tickets as a User, Agent, and Admin.
 </p>
 <br />
 
