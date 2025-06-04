@@ -32,13 +32,13 @@ This tutorial outlines the post-install configuration of the open-source help de
   <h2>Configuration Steps</h2>
 
 <h3>Section 1: Admin/ Analyst Login Page vs End Users Pages</h3>
-
+<br />
 <table>
   <tr>
     <td>
      
    <img width="1440" alt="Screenshot 2025-06-04 at 12 59 32 PM" src="https://github.com/user-attachments/assets/9d77077a-b156-4570-945d-3799865e53c9" />
-
+<br />
 <p>- This is the staff control panel, used by admins and help desk agents. They see tickets come in here and can do several other things in this system. .</p>
 
 
@@ -47,27 +47,28 @@ This tutorial outlines the post-install configuration of the open-source help de
     <td>
       <img width="1440" alt="Screenshot 2025-06-04 at 12 54 56 PM" src="https://github.com/user-attachments/assets/aaeeb7ca-6a6b-46af-82ad-0691d42725a8" />
 
-  
+  <br />
   </tr>
 </table>
 <p>- This is the end users page. Here they can submit tickets.</p>
 
-
+<br />
 <h3>Section 2: Roles</h3>
-
+<br />
 <table>
   <tr>
     <td>
       <img width="1440" alt="Screenshot 2025-06-04 at 11 53 13 AM" src="https://github.com/user-attachments/assets/3ecfb9b2-5abc-4307-97c0-6457dd60600f" />
 <img width="1440" alt="Screenshot 2025-06-04 at 11 53 53 AM" src="https://github.com/user-attachments/assets/9eb2f13b-927c-45f1-9e7b-e8ffbd9e6f47" />
 
-  
+  <br />
   </tr>
 </table>
 <p>- Configure a new role within the Admin Panel. (Remember, "Agent Panel" will display in the top-right of your screen while in the Admin Panel.)</p> 
 <p>- Within Admin Panel, go to  Agents, then Roles. From there, you'll press add new role.</p> 
 <p>- Title the new role "Supreme Admin" and click the Permissions tab.</p>
 <p>- To make the Supreme Admin have all the permissions, go to tickets, tasks, and knowledgebase and select all boxes. .</p>
+<br />
 <img width="1440" alt="Screenshot 2025-06-04 at 11 53 53 AM" src="https://github.com/user-attachments/assets/7fa917ac-edaf-4207-8cd6-0261113b23e0" />
 
 <br/>
@@ -75,15 +76,15 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 <p>- Next, we'll add a new Department.</p>
-
+<br />
 <h3>Section 3: Departments</h3>
-
+<br />
 <table>
   <tr>
     <td>
 <img width="1440" alt="Screenshot 2025-06-04 at 11 55 36 AM" src="https://github.com/user-attachments/assets/7ded4896-7e3c-4c7d-af2e-82722ec9e43b" />
 
-    
+  
    
   </tr>
 </table>
