@@ -36,10 +36,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <table>
   <tr>
     <td>
-       <img width="1440" alt="Screenshot 2025-06-04 at 12 54 56 PM" src="https://github.com/user-attachments/assets/cd286b91-20a0-4f5d-80ce-f0f860e4e93e" />
-      <br />
-      This is the end users page that allows anyone to create tickets. 
-      
+     
    <img width="1440" alt="Screenshot 2025-06-04 at 12 59 32 PM" src="https://github.com/user-attachments/assets/9d77077a-b156-4570-945d-3799865e53c9" />
 
 <p>- This is the staff control panel, used by admins and help desk agents. They see tickets come in here and can do several other things in this system. .</p>
@@ -48,63 +45,35 @@ This tutorial outlines the post-install configuration of the open-source help de
 <table>
   <tr>
     <td>
-      <img width="1000" alt="PI3" src="https://github.com/user-attachments/assets/f9eb004d-3567-470c-b1d6-87d4dec82cee" />
-    </td>
-    <td>
-      <img width="1000" alt="PI4" src="https://github.com/user-attachments/assets/0a2b3cf4-4ae9-43a4-9aa6-710325588676" />
-    </td>
+      <img width="1440" alt="Screenshot 2025-06-04 at 12 54 56 PM" src="https://github.com/user-attachments/assets/aaeeb7ca-6a6b-46af-82ad-0691d42725a8" />
+
+  
   </tr>
 </table>
-<p>- Once you're logged in to the Staff Control Panel URL, there are two different panels that can be used depending on your permissions.</p>
-<p>- Admin Panel - This is used by the System Admin to confiured settings on the backend. </p>
-<p>- Agent Panel - This is used by the Help Desk Agents or Support Specialists to view and work tickets.</p>
-<p>- As an Admin, you can switch panels by clicking the panel name in the top right of the screen. We will be jumping between the two a lot during this project. Now, top off your coffee or grab another energy drink and lets get started. </p>
+<p>- This is the end users page. Here they can submit tickets.</p>
+
 
 <h3>Section 2: Roles</h3>
 
 <table>
   <tr>
     <td>
-      <img width="996" alt="PI5" src="https://github.com/user-attachments/assets/e5cc5c49-2a22-4ace-b708-d34fe0df6a5d" />
-    </td>
-    <td>
-      <img width="1000" alt="PI6" src="https://github.com/user-attachments/assets/d8ba554f-ddfc-4985-a821-3738fe940dc1" />
-    </td>
+      <img width="1440" alt="Screenshot 2025-06-04 at 11 53 13 AM" src="https://github.com/user-attachments/assets/3ecfb9b2-5abc-4307-97c0-6457dd60600f" />
+<img width="1440" alt="Screenshot 2025-06-04 at 11 53 53 AM" src="https://github.com/user-attachments/assets/9eb2f13b-927c-45f1-9e7b-e8ffbd9e6f47" />
+
+  
   </tr>
 </table>
 <p>- Configure a new role within the Admin Panel. (Remember, "Agent Panel" will display in the top-right of your screen while in the Admin Panel.)</p> 
-<p>- Within Admin Panel, click Agents -> Roles -> + Add New Role.</p> 
-<p>- Name the new role "Supreme Admin" and click the Permissions tab.</p>
+<p>- Within Admin Panel, go to  Agents, then Roles. From there, you'll press add new role.</p> 
+<p>- Title the new role "Supreme Admin" and click the Permissions tab.</p>
+<p>- To make the Supreme Admin have all the permissions, go to tickets, tasks, and knowledgebase and select all boxes. .</p>
+<img width="1440" alt="Screenshot 2025-06-04 at 11 53 53 AM" src="https://github.com/user-attachments/assets/7fa917ac-edaf-4207-8cd6-0261113b23e0" />
+
 <br/>
 
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI7" src="https://github.com/user-attachments/assets/f5632967-ea12-44dd-8b93-26e3f682105f" />
-    </td>
-    <td>
-      <img width="1000" alt="PI8" src="https://github.com/user-attachments/assets/02641de8-60f1-427e-b676-d0a21da0d1d0" />
-    </td>
-  </tr>
-</table>
-<p>- We want the Supreme Admin Role to have all the permissions for the sake of this project.</p>
-<p>- Under Tickets, check all the boxes and click Tasks.</p>
-<p>- Under Tasks, check all the boxes again and click Knowledgebase.</p>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI9" src="https://github.com/user-attachments/assets/e87e2ef8-c613-4a98-925c-81b0edb954e3" />
-    </td>
-    <td>
-      <img width="1000" alt="PI10" src="https://github.com/user-attachments/assets/1a731001-c945-4a61-b859-1d7377126507" />
-    </td>
-  </tr>
-</table>
-<p>- Under Knowledgebase, check all of the one box and click Add Role.</p>
-<p>- The Supreme Admin Role was successfully added.</p> 
-<p>- You can learn more about Roles within osTicket by clicking the link in the Post-Install Configuration Objectives above.<p/>
 <p>- Next, we'll add a new Department.</p>
 
 <h3>Section 3: Departments</h3>
@@ -112,158 +81,71 @@ This tutorial outlines the post-install configuration of the open-source help de
 <table>
   <tr>
     <td>
-      <img width="1000" alt="PI11" src="https://github.com/user-attachments/assets/772d618b-3fad-48bf-940a-e3f982b49607" />
-    </td>
-    <td>
-      <img width="1000" alt="PI12" src="https://github.com/user-attachments/assets/65a769eb-fa93-4e87-b451-313259b93378" />
-    </td>
+<img width="1440" alt="Screenshot 2025-06-04 at 11 55 36 AM" src="https://github.com/user-attachments/assets/7ded4896-7e3c-4c7d-af2e-82722ec9e43b" />
+
+    
+   
   </tr>
 </table>
 <p>- Within Admin Panel, click Agents -> Departments -> + Add New Department.</p>
 <p>- Under Settings, leave Parent as "Top-Level Department" and name the department "SysAdmins".</p>
-<p>- This is all we'll do here for now. Ignore the Access tab for now because we still need to create some Agents. Scroll down and click Create.</p>
 
 <p>
-<img width="950" alt="PI13" src="https://github.com/user-attachments/assets/f46cdfbf-b156-4c04-9db0-ad821f1dc962" />
 
 </p>
 
 <p>- The SysAdmins Department has been successfully added. </p>
-<p>- You can learn more about Departments within osTicket by clicking the link in the Post-Install Configuration Objectives above. </p>
 <br />
 
 <h3>Section 4: Teams</h3>
 
 <table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI14" src="https://github.com/user-attachments/assets/8f5c3b1e-281a-464b-8d0b-3c01dba6aea1" />
-    </td>
-    <td>
-      <img width="1000" alt="PI15" src="https://github.com/user-attachments/assets/928db42c-ffd0-4013-9b4b-c0dc0465d0c3" />
-    </td>
-  </tr>
+ <img width="1440" alt="Screenshot 2025-06-04 at 11 56 39 AM" src="https://github.com/user-attachments/assets/5831a7b6-17ae-45d7-b79f-0902162ff06c" />
+
 </table>
 <p>- Now, we'll add a new Team. Within Admin Panel, click Agents -> Teams -> + Add New Team.</p>
 <p>- Name the Team "Online Banking". </p>
 <p>- We'll will add members when we add Agents later. Click Create Team.</p>
 <p>- You can learn more about Teams within osTicket by clicking the link in the Post-Install Configuration Objectives above.</p>
 
-<p>
-<img width="750" alt="PI16" src="https://github.com/user-attachments/assets/6ae0c661-15b2-42ac-8cad-621ad6df1585" />
 
-</p>
 
 <p>- Next, we'll change a setting that will allow somone to create a ticket without having to register an account. The end user will be able to create thier own ticket. </p>
 <p>- From Admin Panel, click Agents -> Settings -> Users. </p>
 <p>- Under Authentication Settings, uncheck the box next to "Require registration and login to create tickets". Click Save Changes.</p>
 <br />
+<img width="1440" alt="Screenshot 2025-06-04 at 11 58 04 AM" src="https://github.com/user-attachments/assets/3d6b5c98-066c-41e9-b53b-4904d4c3a51b" />
 
-<h3>Section 5: Agents and Users</h3>
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI17" src="https://github.com/user-attachments/assets/8ee3d34d-625e-464d-86b3-221df3da96de" />
-    </td>
-    <td>
-      <img width="1000" alt="PI18" src="https://github.com/user-attachments/assets/d69937e8-a664-49d4-843e-fa82dd1c710e" />
-    </td>
-  </tr>
-</table>
+<h3>Section 5: Agents </h3>
+
+<img width="1440" alt="Screenshot 2025-06-04 at 12 01 28 PM" src="https://github.com/user-attachments/assets/8f1d8124-f951-416f-8453-8430bdf8960d" />
+<img width="1440" alt="Screenshot 2025-06-04 at 12 01 34 PM" src="https://github.com/user-attachments/assets/31e58cdf-4540-4671-be8e-dd08e77cf08d" />
+
+
+
 <p>- Time to add some Agents. From Admin Panel, click -> Agents -> Agents -> + Add New Agent. </p>
-<p>- Under Account, name the Agent "Jane Doe". Enter a fake email (Doesn't matter but I stuck with the Help Desk company theme).  </p>
+<p>- Under Account, name the Agent "Jane Doe". Enter an email (I did jane@lognpacific.com).  </p>
 <p>- Username: jane_doe </p>
 <p>- Click Set Password. </p>
 
-<p>
-<img width="750" alt="PI24" src="https://github.com/user-attachments/assets/94f4d00e-dbc4-4570-b7a9-c0542c1f9461" />
-
-</p>
-
-<p>- When you click Set Password a pop-up will appear. Uncheck the box next to "Send the agent a password reset email" and you'll see Figure 19. </p>
-<p>- Set password to "Password1". Uncheck "Require password change at next login". Click Update. </p>
-<p>- You will need to do this when we create the next Agent (John) as well.  </p>
+<p>- Do the same thing and add John Doe. I used the email john@lognpacific.com. </p>
 
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI19" src="https://github.com/user-attachments/assets/45b36bfc-d0ec-4683-96f2-8dfb095483f1" />
-    </td>
-    <td>
-      <img width="1000" alt="PI20" src="https://github.com/user-attachments/assets/290cb12c-0d0a-49d2-8b35-c13d9a3a98d2" />
-    </td>
-  </tr>
-</table>
-<p>- Under Access -> Primary Department, select SysAdmins. For Role/Permissions, select Supreme Admin. </p>
-<p>- Under Teams, select Online Banking and click Create.  </p>
+<h3>Section 6: Users </h3>
+<img width="1440" alt="Screenshot 2025-06-04 at 12 04 47 PM" src="https://github.com/user-attachments/assets/6d263665-6aa7-464d-99bd-ac10d0882026" />
 
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI21" src="https://github.com/user-attachments/assets/284f42e3-85c1-42b0-849b-5b56e872d03b" />
-    </td>
-    <td>
-      <img width="1000" alt="PI22" src="https://github.com/user-attachments/assets/23f573c1-0166-4469-beb2-9fac9de404ca" />
-    </td>
-  </tr>
-</table>
-<p>- Add another Agent by clicking + Add New Agent.</p>
-<p>- Under Account, name the Agent "John Doe". Enter a fake email.  </p>
-<p>- Username: john_doe </p>
-<p>- Click Set Password. </p>
-<br/>
-
-<p>
-<img width="750" alt="PI24" src="https://github.com/user-attachments/assets/94f4d00e-dbc4-4570-b7a9-c0542c1f9461" />
-</p>
-
-<p>- As before, when you click Set Password a pop-up will appear.</p>
-<p>- Uncheck the box next to "Send the agent a password reset email" and you'll see Figure 19. </p>
-<p>- Set password to "Password1". Uncheck "Require password change at next login". Click Update. </p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI23" src="https://github.com/user-attachments/assets/36b38331-2e76-44f5-94ad-42d49677d971" />
-    </td>
-    <td>
-      <img width="1000" alt="PI25" src="https://github.com/user-attachments/assets/29814cd4-93f5-4fbe-b3b2-487095432d5b" />
-    </td>
-  </tr>
-</table>
-<p>- Under Access -> Primary Department -> select Support. For Role/Permissions, select Expanded Access. Click Create.</p>
-<p>- Our Agents have been added. We'll work tickets with both in the next project. </p>
-<p>- I know Figure 24 shows "View Only" for John Doe's Role, but that created some issues while trying to work tickets. I had to go back and change it while I was working on the project we'll do next. Changing it to Expanded Access seemed to fix the issue.😉  </p>
-<br/>
-
-<table>
-  <tr>
-    <td>
-      <img width="1000" alt="PI26" src="https://github.com/user-attachments/assets/b680df79-e884-44f9-a47d-c3fce3a584e4" />
-    </td>
-    <td>
-      <img width="1000" alt="PI27" src="https://github.com/user-attachments/assets/4d6f7fe4-67f1-4c82-bec7-9ccd75952be8" />
-    </td>
-  </tr>
-</table>
 <p>- Now, we need to add a User. Click Agent Panel at the top-right of the screen.</p>
 <p>- From Agent Panel, click Users -> + Add User.  </p>
 <p>- Enter email address: karen@lonpacific.com (Fake Email).</p>
 <p>- Name the User "Karen" and click Add User. </p>
 <br/>
 
-<p>
-<img width="750" alt="PI28" src="https://github.com/user-attachments/assets/c98344cd-3bd6-4ff3-a461-85e2b2955beb" />
-</p>
 
 <p>- Karen has been added as a User.</p>
 <p>- We'll have Karen creating tickets for our Agents in the next project. </p>
-<p>- Set password to "Password1". Uncheck "Require password change at next login". Click Update. </p>
-<p>- You can learn more about Agents and Users within osTicket by clicking the link in the Post-Install Configuration Objectives above.<p/>
-<p>- Click Agent Panel and start the next Section.</p>
+<p>- Set a password. Uncheck "Require password change at next login". Click Update. Do the same steps to add Ken.  </p>
+
 <br/>
 
 <h3>Section 6: Service Level Agreements (SLA)</h3>
@@ -371,3 +253,28 @@ This tutorial outlines the post-install configuration of the open-source help de
 <p>This concludes our project. We have successfully completed the post-install configurations for osTicket. We will put our settings to the test in the next lab when we create and work tickets as a User, Agent, and Admin. Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
 </p>
 <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
